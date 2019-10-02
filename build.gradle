@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.ithex'
+
+sourceCompatibility = 11
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+}
