@@ -2,6 +2,8 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'java'
+
 group 'ru.ithex'
 
 sourceCompatibility = 11
@@ -12,5 +14,4 @@ repositories {
 
 dependencies {
     compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
-
 }
