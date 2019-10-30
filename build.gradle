@@ -2,6 +2,8 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'java'
+
 group 'ru.ithex'
 
 sourceCompatibility = 11
@@ -13,4 +15,5 @@ repositories {
 dependencies {
     compile 'javax.persistence:javax.persistence-api:2.2'
     compile 'javax.xml.bind:jaxb-api:2.4.+'
+
 }

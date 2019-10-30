@@ -41,7 +41,7 @@ public class Product {
     @Column(name = "organization_id")
     private Integer organizationId;
 
-    @Column(name = "organization_id")
+    @Column(name = "product_specification_id")
     private Integer productSpecificationId;
 
     public Integer getId() {
